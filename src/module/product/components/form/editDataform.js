@@ -91,6 +91,10 @@ export default function EditDataForm(props) {
               { value: 'shoes', label: 'Shoes' },
               { value: 'shirt', label: 'Shirt' },
               { value: 'laptop', label: 'Laptop' },
+              { value: 'monitor', label: 'Monitor' },
+              { value: 'comic', label: 'Comic' },
+              { value: 'human', label: 'Human' },
+              { value: 'animal', label: 'Animal' },
             ]}
             {...form.getInputProps('category')}
           />

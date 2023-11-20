@@ -61,7 +61,7 @@ export default function AddDataForm(props) {
        <form onSubmit={form.onSubmit((values) => mutate(values))}>
           <TextInput
             withAsterisk
-            label="Title"
+            label="Product Name"
             placeholder="Input your title product"
             {...form.getInputProps('title')}
           />
@@ -82,6 +82,10 @@ export default function AddDataForm(props) {
               { value: 'shoes', label: 'Shoes' },
               { value: 'shirt', label: 'Shirt' },
               { value: 'laptop', label: 'Laptop' },
+              { value: 'monitor', label: 'Monitor' },
+              { value: 'comic', label: 'Comic' },
+              { value: 'human', label: 'Human' },
+              { value: 'animal', label: 'Animal' },
             ]}
             {...form.getInputProps('category')}
           />

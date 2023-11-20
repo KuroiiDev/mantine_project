@@ -79,7 +79,7 @@ export default function ProductPage(){
               justifyContent:"space-between",
               alignItems:"center"
             }}>
-            <Title order={1} style={{marginBottom:"10px"}}>List Product</Title>
+            <Title order={1} style={{marginBottom:"10px"}}>Product List</Title>
             <Button
               onClick={()=>setIsOpenAdd(true)}
             >
@@ -94,21 +94,21 @@ export default function ProductPage(){
                 {
                   accessor: 'title',
                   title: 'Title',
-                  width: 160,
+                  width: 120,
                 },
                 {
                   accessor: 'category',
                   title: 'Category',
-                  width: 160,
+                  width: 120,
                 },
                 {
                   accessor: 'description',
                   title: 'Description',
-                  width: 160,
+                  width: 240,
                 },
                 {
                   accessor: 'actions',
-                  title: <Text>Aksi</Text>,
+                  title: <Text></Text>,
                   textAlignment: 'center',
                   width: 80,
                   render: (data) => (
